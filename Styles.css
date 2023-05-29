@@ -1,0 +1,27 @@
+body
+{
+    margin: 0;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background:azure;
+}
+html
+{
+    min-width: 460px;
+    max-width: 1080px;
+    margin: 0 auto 30px;
+    min-height: 100%;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+}
+.header 
+{   
+    top: 0;  
+    background:gainsboro; 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
